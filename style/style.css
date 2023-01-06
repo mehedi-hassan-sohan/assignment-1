@@ -23,14 +23,38 @@
   margin: 400px;
 }
 
-.btn-contact{
+.btn-contact {
   padding: 15px 35px;
   color: black;
-  background-color:#F15B22;
-  border:none;
-  border-radius: 5px; 
+  background-color: #f15b22;
+  border: none;
+  border-radius: 5px;
   margin: 5px;
-
 }
 
+/*Second- content*/
+.Second-content {
+  display: flex;
+  margin: auto;
+  justify-content: right;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.right-side-picture {
+  margin-left: 206px;
+}
 
+.left-side-content-title {display: inline;
+
+  padding:auto;
+  margin: 0 20px;
+  font-size: 50px;
+  font-weight:0px;
+}
+.left-side-content-description {
+  padding: 30px;
+  margin: 0 400px;
+  font-size: 18px;
+  font-weight:70px;
+}
