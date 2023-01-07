@@ -18,11 +18,6 @@
   padding: 20px;
   margin: 0 500px;
 }
-/* 
-.title-description {
-   
-  
-} */
 
 .btn-contact {
   padding: 15px 35px;
@@ -45,7 +40,7 @@
 .right-side-picture {
   margin-left: 206px;
 }
-
+/* last content */
 .left-side-content-title {
   display: inline;
 
@@ -54,6 +49,7 @@
   font-size: 50px;
   font-weight: 0px;
 }
+
 .left-side-content-description {
   padding: 30px;
   margin: 0 400px;
@@ -72,6 +68,7 @@ li {
 .skill-header {
   margin-top: 100px;
   margin-bottom: 30px;
+  margin-right: 0 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,4 +91,80 @@ li {
 }
 .skill-description {
   text-align: center;
+}
+
+/* last-container */
+
+.last-section {
+  margin-top: 200px;
+  width: 1140px;
+  height: 300px;
+  padding: 0 400px;
+  display: flex;
+  max-width: fit-content;
+
+  background-image: url(../images/gradient1.png);
+  align-items: center;
+  margin-left: 350px;
+  border: none;
+
+  background-size: 300px 100px;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  border-radius: 8px;
+  width: 1140px;
+  height: 300px;
+}
+
+.last-header-title {
+  text-align: center;
+  padding: 29px, 617px, 59px, 64px;
+  margin-right: 320px;
+  font-size: 25px;
+}
+
+.btn-last {
+  font-size: 30px;
+}
+
+.footer-container {
+  margin-top: 200px;
+  display: flex;
+  background-color: black;
+
+  justify-content: space-around;
+}
+
+.footer-title {
+  text-align: center;
+  color: white;
+}
+.footer-description {
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.left-side-footer {
+  display: flex;
+  padding-top: 150px;
+  padding-right: 450px;
+  color: white;
+  text-align: center;
+}
+.left-side-footer {
+  justify-content: space-between;
+}
+.left-side-eml {
+  justify-content: space-between;
+  color: white;
+  padding-top: 10px;
+}
+.left-side-btn {
+  padding-left: 50px;
+  padding-top: 20px;
 }
