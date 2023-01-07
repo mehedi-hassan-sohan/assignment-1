@@ -18,10 +18,11 @@
   padding: 20px;
   margin: 0 500px;
 }
+/* 
 .title-description {
    
   
-}
+} */
 
 .btn-contact {
   padding: 15px 35px;
@@ -45,27 +46,52 @@
   margin-left: 206px;
 }
 
-.left-side-content-title {display: inline;
+.left-side-content-title {
+  display: inline;
 
-  padding:auto;
+  padding: auto;
   margin: 0 20px;
   font-size: 50px;
-  font-weight:0px;
+  font-weight: 0px;
 }
 .left-side-content-description {
   padding: 30px;
   margin: 0 400px;
   font-size: 18px;
-  font-weight:70px;
+  font-weight: 70px;
 }
-.list-items,li{ list-style-image: url('../images/icons/check-solid.svg');  
-  margin: 0 150px; 
- font-size: 20px;}
+.list-items,
+li {
+  list-style-image: url("../images/icons/check-solid.svg");
+  margin: 0 150px;
+  font-size: 20px;
+}
 
-     /* about section  */
+/* skill section  */
 
- 
-    
- 
- 
- 
+.skill-header {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 500px;
+  font-size: 20px;
+}
+.skill {
+  text-align: center;
+  align-items: center;
+}
+
+.skill-title {
+  text-align: center;
+}
+.skill-description {
+  text-align: center;
+}
