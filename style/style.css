@@ -19,8 +19,8 @@
   margin: 0 500px;
 }
 .title-description {
-  padding: 30px;
-  margin: 400px;
+   
+  
 }
 
 .btn-contact {
@@ -59,5 +59,13 @@
   font-weight:70px;
 }
 .list-items,li{ list-style-image: url('../images/icons/check-solid.svg');  
-     margin: 0 150px; 
-    font-size: 20px;}
+  margin: 0 150px; 
+ font-size: 20px;}
+
+     /* about section  */
+
+ 
+    
+ 
+ 
+ 
